@@ -14,20 +14,7 @@ client.connect()
 print('CLIENT CONNECTED SUCCESSFULLY')
 # firebase initialization 
 firebaseConfig = {
-    # 'apiKey': "AIzaSyCg3wC6dEyr10uclBn2SAEDttYeyu7blsk",
-    # 'authDomain': "crwn-db-dffe3.firebaseapp.com",
-    # 'databaseURL': "https://crwn-db-dffe3.firebaseio.com",
-    # 'projectId': "crwn-db-dffe3",
-    # 'storageBucket': "crwn-db-dffe3.appspot.com",
-    # 'messagingSenderId': "611614610213",
-    # 'appId': "1:611614610213:web:fc705e91b267d2f31b40cc"
-    'apiKey': "AIzaSyAvheAqKVkBCCtCZUzRy3AjTZcf8kWLhp8",
-    'authDomain': "rdmpro-ba669.firebaseapp.com",
-    'databaseURL': "https://rdmpro-ba669.firebaseio.com",
-    'projectId': "rdmpro-ba669",
-    'storageBucket': "rdmpro-ba669.appspot.com",
-    'messagingSenderId': "869898311250",
-    'appId': "1:869898311250:web:523a550062395213df718b"
+   #the firebase database configuration goes here
 }
 
 firebase = Firebase(firebaseConfig)
