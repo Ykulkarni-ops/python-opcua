@@ -13,7 +13,7 @@ client.connect()
 print('CLIENT CONNECTED SUCCESSFULLY')
 # firebase initialization 
 firebaseConfig = {
-   3 here the firebase configuration should be entered
+   # here the firebase configuration should be entered
 }
 
 firebase = Firebase(firebaseConfig)
